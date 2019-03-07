@@ -17,8 +17,7 @@ import { connect } from 'react-redux';
 
 const mapStateToProps = (store) => ({
   isLoggedIn: store.reducer.isLoggedIn,
-}
-)
+})
 
 const mapDispatchToProps = dispatch => ({
   logIn: (login) => {
